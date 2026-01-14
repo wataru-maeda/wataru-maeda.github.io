@@ -2,4 +2,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://wataru-maeda.github.io/sitemap.xml
+Sitemap: https://watarumaeda.com/sitemap.xml
