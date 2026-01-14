@@ -27,6 +27,7 @@ export default function HeroSection() {
         ? "mailto:w.maeda.jp@gmail.com"
         : "mailto:w.maeda.ca@gmail.com",
     label: "Email",
+    external: false,
   };
 
   const socialLinks = [emailLink, ...socialLinksStatic];
@@ -47,7 +48,7 @@ export default function HeroSection() {
         boxShadow:
           "0 20px 60px rgba(59, 130, 246, 0.3), 0 0 80px rgba(59, 130, 246, 0.15), inset 0 0 100px rgba(59, 130, 246, 0.05)",
       }}
-      css={theme => ({
+      css={(theme: any) => ({
         "&::before": {
           content: '""',
           position: "absolute",
