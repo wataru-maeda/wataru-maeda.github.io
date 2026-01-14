@@ -1,10 +1,4 @@
-import {
-  Box,
-  Heading,
-  Text,
-  Flex,
-  Link as ChakraLink,
-} from "@chakra-ui/react";
+import { Box, Heading, Text, Flex, Link as ChakraLink } from "@chakra-ui/react";
 import { TbBrandGithub, TbBrandLinkedin, TbMail } from "react-icons/tb";
 import { useTranslation } from "react-i18next";
 
@@ -28,7 +22,10 @@ export default function HeroSection() {
 
   const emailLink = {
     icon: TbMail,
-    href: i18n.language === "ja" ? "mailto:w.maeda.jp@gmail.com" : "mailto:w.maeda.ca@gmail.com",
+    href:
+      i18n.language === "ja"
+        ? "mailto:w.maeda.jp@gmail.com"
+        : "mailto:w.maeda.ca@gmail.com",
     label: "Email",
   };
 
@@ -50,7 +47,7 @@ export default function HeroSection() {
         boxShadow:
           "0 20px 60px rgba(59, 130, 246, 0.3), 0 0 80px rgba(59, 130, 246, 0.15), inset 0 0 100px rgba(59, 130, 246, 0.05)",
       }}
-      css={(theme) => ({
+      css={theme => ({
         "&::before": {
           content: '""',
           position: "absolute",
