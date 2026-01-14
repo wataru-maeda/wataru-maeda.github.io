@@ -9,6 +9,7 @@ import Footer from "./_sections/Footer";
 export default function Home() {
   return (
     <Box
+      as="main"
       minH="100vh"
       bg="dark.bg"
       color="dark.textPrimary"
@@ -20,7 +21,13 @@ export default function Home() {
 
       <Box maxW="8xl" mx="auto">
         {/* Hero + Stats Bento Grid */}
-        <Grid templateColumns={{ base: "1fr", lg: "2fr 1fr" }} gap={4} mb={4}>
+        <Grid
+          as="section"
+          templateColumns={{ base: "1fr", lg: "2fr 1fr" }}
+          gap={4}
+          mb={4}
+          aria-label="Introduction and statistics"
+        >
           <GridItem>
             <Hero />
           </GridItem>
@@ -30,13 +37,19 @@ export default function Home() {
         </Grid>
 
         {/* Expertise Bento Grid */}
-        <Expertise />
+        <Box as="section" aria-label="Areas of expertise">
+          <Expertise />
+        </Box>
 
         {/* Philosophy Bento Grid */}
-        <Philosophy />
+        <Box as="section" aria-label="Work philosophy">
+          <Philosophy />
+        </Box>
 
         {/* Footer */}
-        <Footer />
+        <Box as="footer">
+          <Footer />
+        </Box>
       </Box>
     </Box>
   );
