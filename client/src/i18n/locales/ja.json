@@ -1,0 +1,95 @@
+{
+  "nav": {
+    "about": "About",
+    "works": "Works",
+    "contact": "Contact"
+  },
+  "hero": {
+    "role": "フルスタックエンジニア / DVER Technology CEO",
+    "catchphrase": {
+      "prefix": "",
+      "highlight1": "北米のスピード感",
+      "middle": "と",
+      "highlight2": "日本の品質",
+      "suffix": "を融合させるフルスタックエンジニア。"
+    },
+    "buttons": {
+      "contact": "お問い合わせ",
+      "projects": "実績を見る"
+    }
+  },
+  "about": {
+    "title": "About Me",
+    "description": "DVER TechnologyのCEO兼フルスタックエンジニアとして、日本と北米での経験を活かし、品質とスピードを両立する開発を実現します。スケーラブルで高性能なアプリケーション構築を専門としています。",
+    "vision": "実用性と美しさを兼ね備えた、次世代のデジタルソリューションを提供します。",
+    "stats": [
+      {
+        "value": "13+",
+        "label": "年の経験"
+      },
+      {
+        "value": "20+",
+        "label": "プロジェクト実績"
+      },
+      {
+        "value": "100+",
+        "label": "技術スタック"
+      }
+    ]
+  },
+  "works": {
+    "title": "What I Do",
+    "items": [
+      {
+        "title": "Web/モバイルアプリ開発",
+        "description": "ユーザー体験を重視したクロスプラットフォームアプリケーションの設計・開発。"
+      },
+      {
+        "title": "バックエンド/インフラ構築",
+        "description": "スケーラブルで信頼性の高いバックエンドシステムとクラウドインフラの設計・構築。"
+      },
+      {
+        "title": "生成AI導入支援",
+        "description": "最先端のAIソリューションを実装し、ワークフローの自動化とユーザー体験の向上を実現。"
+      },
+      {
+        "title": "自動化支援",
+        "description": "ワークフローの自動化とインフラのコード化により、業務プロセスの効率化を実現。"
+      }
+    ]
+  },
+  "tech": {
+    "title": "Tech Stack"
+  },
+  "philosophy": {
+    "title": "Philosophy",
+    "items": [
+      {
+        "title": "ユーザー中心設計",
+        "description": "常にエンドユーザーのニーズと体験を最優先に考えます。"
+      },
+      {
+        "title": "クリーンコード",
+        "description": "保守性が高く、拡張性があり、自己説明的なコードを書くことを心がけています。"
+      },
+      {
+        "title": "継続的な学習",
+        "description": "最新の技術トレンドとベストプラクティスを常にキャッチアップしています。"
+      },
+      {
+        "title": "アジャイル開発",
+        "description": "変化を受け入れ、短いイテレーションで価値を提供し続けます。"
+      },
+      {
+        "title": "グローバルな視点",
+        "description": "多様な経験を活かし、複雑な問題に対して多角的なアプローチで解決策を見出します。"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "email": "Email",
+    "github": "GitHub",
+    "linkedin": "LinkedIn"
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "nav": {
+    "about": "About",
+    "works": "Works",
+    "contact": "Contact"
+  },
+  "hero": {
+    "role": "Full Stack Engineer / DVER Technology CEO",
+    "catchphrase": {
+      "prefix": "Fusing ",
+      "highlight1": "North American speed",
+      "middle": " with ",
+      "highlight2": "Japanese quality",
+      "suffix": " in software development."
+    },
+    "buttons": {
+      "contact": "Contact Me",
+      "projects": "View Work"
+    }
+  },
+  "about": {
+    "title": "About Me",
+    "description": "As CEO and Full-stack Engineer of DVER Technology, I leverage experience in Japan and North America to deliver development that balances quality and speed. Specializing in building scalable, high-performance applications.",
+    "vision": "Providing next-generation digital solutions that combine practicality and beauty.",
+    "stats": [
+      {
+        "value": "13+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "20+",
+        "label": "Projects Delivered"
+      },
+      {
+        "value": "100+",
+        "label": "Technologies"
+      }
+    ]
+  },
+  "works": {
+    "title": "What I Do",
+    "items": [
+      {
+        "title": "Web/Mobile App Development",
+        "description": "Designing and developing cross-platform applications with a focus on user experience and performance."
+      },
+      {
+        "title": "Backend/Infra",
+        "description": "Building scalable and reliable backend systems with robust cloud infrastructure architecture."
+      },
+      {
+        "title": "Generative AI Integration",
+        "description": "Implementing cutting-edge AI solutions to automate workflows and enhance user experiences."
+      },
+      {
+        "title": "Automation Support",
+        "description": "Streamlining business processes through workflow automation and infrastructure as code."
+      }
+    ]
+  },
+  "tech": {
+    "title": "Tech Stack"
+  },
+  "philosophy": {
+    "title": "Philosophy",
+    "items": [
+      {
+        "title": "User-Centric Design",
+        "description": "Always prioritizing the end-user's needs and experience."
+      },
+      {
+        "title": "Clean Code",
+        "description": "Writing maintainable, scalable, and self-documenting code."
+      },
+      {
+        "title": "Continuous Learning",
+        "description": "Staying up-to-date with the latest technologies and best practices."
+      },
+      {
+        "title": "Agile Methodology",
+        "description": "Embracing change and delivering value in short iterations."
+      },
+      {
+        "title": "Global Perspective",
+        "description": "Leveraging diverse experiences to solve complex problems."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "email": "Email",
+    "github": "GitHub",
+    "linkedin": "LinkedIn"
+  }
+}
