@@ -19,9 +19,9 @@ Modern portfolio website showcasing my work as a Full-Stack Software Engineer, b
 
 ## Design & Content
 
-- **Design**: [Manus](https://manus.app) - Used for site design and layout
-- **Content Generation**: Claude AI and NotebookLM - Assisted in generating website content
-- **Hosting**: GitHub Pages - Static site hosting with custom domain
+- **Content Generation**: [Claude AI](https://claude.ai/) and [NotebookLM](https://notebooklm.google/) - Assisted in generating website content
+- **Design**: [Manus](https://manus.im/app) - Used for site design and layout
+- **Hosting**: [GitHub Pages](pages.github.com) - Static site hosting with custom domain
 
 ## Development
 
