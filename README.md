@@ -1,6 +1,6 @@
-# wataru-maeda.github.io
+# Wataru Maeda - Portfolio
 
-Portfolio website for Wataru Maeda - Full-Stack Software Engineer
+Modern portfolio website showcasing my work as a Full-Stack Software Engineer, built with React, TypeScript, and deployed on GitHub Pages.
 
 ![Site Preview](.github/images/site-image.png)
 
