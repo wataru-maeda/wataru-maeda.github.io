@@ -2,13 +2,13 @@ import { Flex, Button } from "@chakra-ui/react";
 import { useTranslation } from "react-i18next";
 import { cn } from "@/lib/utils";
 
-declare global {
-  interface Window {
-    ReactNativeWebView?: {
-      postMessage(message: string): void;
-    };
-  }
-}
+// declare global {
+//   interface Window {
+//     ReactNativeWebView?: {
+//       postMessage(message: string): void;
+//     };
+//   }
+// }
 
 export function LanguageSwitch({ className }: { className?: string }) {
   const { i18n } = useTranslation();
@@ -19,14 +19,14 @@ export function LanguageSwitch({ className }: { className?: string }) {
     localStorage.setItem("language", lng);
 
     // test mmp
-    if (!window.ReactNativeWebView) return;
-    const payload = {
-      event: "application_complete",
-      member_id: "test-member-id",
-      timestamp: new Date().toISOString(),
-    };
+    // if (!window.ReactNativeWebView) return;
+    // const payload = {
+    //   event: "application_complete",
+    //   member_id: "test-member-id",
+    //   timestamp: new Date().toISOString(),
+    // };
 
-    window.ReactNativeWebView.postMessage(JSON.stringify(payload));
+    // window.ReactNativeWebView.postMessage(JSON.stringify(payload));
   };
 
   return (
